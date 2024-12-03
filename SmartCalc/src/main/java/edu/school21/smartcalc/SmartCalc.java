@@ -4,6 +4,8 @@
 
 package edu.school21.smartcalc;
 
+import edu.school21.smartcalc.forms.MainWindow;
+
 /**
  *
  * @author user
@@ -11,6 +13,8 @@ package edu.school21.smartcalc;
 public class SmartCalc {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+                java.awt.EventQueue.invokeLater(() -> {
+                    new MainWindow().setVisible(true);
+                });
     }
 }
