@@ -108,6 +108,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_x.setMaximumSize(new java.awt.Dimension(0, 0));
         button_x.setMinimumSize(new java.awt.Dimension(60, 30));
         button_x.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_x.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_xActionPerformed(evt);
+            }
+        });
 
         button_bracket_left.setText("(");
         button_bracket_left.setAlignmentY(0.0F);
@@ -115,6 +120,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_bracket_left.setMaximumSize(new java.awt.Dimension(0, 0));
         button_bracket_left.setMinimumSize(new java.awt.Dimension(60, 30));
         button_bracket_left.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_bracket_left.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_bracket_leftActionPerformed(evt);
+            }
+        });
 
         button_bracket_right.setText(")");
         button_bracket_right.setAlignmentY(0.0F);
@@ -122,6 +132,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_bracket_right.setMaximumSize(new java.awt.Dimension(0, 0));
         button_bracket_right.setMinimumSize(new java.awt.Dimension(60, 30));
         button_bracket_right.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_bracket_right.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_bracket_rightActionPerformed(evt);
+            }
+        });
 
         button_erase.setText("C");
         button_erase.setAlignmentY(0.0F);
@@ -129,6 +144,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_erase.setMaximumSize(new java.awt.Dimension(0, 0));
         button_erase.setMinimumSize(new java.awt.Dimension(60, 30));
         button_erase.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_erase.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_eraseActionPerformed(evt);
+            }
+        });
 
         button_backspace.setText("<--");
         button_backspace.setAlignmentY(0.0F);
@@ -136,6 +156,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_backspace.setMaximumSize(new java.awt.Dimension(0, 0));
         button_backspace.setMinimumSize(new java.awt.Dimension(60, 30));
         button_backspace.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_backspace.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_backspaceActionPerformed(evt);
+            }
+        });
 
         button_e.setText("e");
         button_e.setAlignmentY(0.0F);
@@ -143,6 +168,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_e.setMaximumSize(new java.awt.Dimension(0, 0));
         button_e.setMinimumSize(new java.awt.Dimension(60, 30));
         button_e.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_e.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_eActionPerformed(evt);
+            }
+        });
 
         button_pi.setText("π");
         button_pi.setToolTipText("");
@@ -151,6 +181,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_pi.setMaximumSize(new java.awt.Dimension(0, 0));
         button_pi.setMinimumSize(new java.awt.Dimension(60, 30));
         button_pi.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_pi.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_piActionPerformed(evt);
+            }
+        });
 
         button_mod.setText("Mod");
         button_mod.setAlignmentY(0.0F);
@@ -158,6 +193,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_mod.setMaximumSize(new java.awt.Dimension(0, 0));
         button_mod.setMinimumSize(new java.awt.Dimension(60, 30));
         button_mod.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_mod.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_modActionPerformed(evt);
+            }
+        });
 
         button_sqrt.setText("√");
         button_sqrt.setAlignmentY(0.0F);
@@ -165,6 +205,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_sqrt.setMaximumSize(new java.awt.Dimension(0, 0));
         button_sqrt.setMinimumSize(new java.awt.Dimension(60, 30));
         button_sqrt.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_sqrt.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_sqrtActionPerformed(evt);
+            }
+        });
 
         button_pow.setText("^");
         button_pow.setAlignmentY(0.0F);
@@ -172,6 +217,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_pow.setMaximumSize(new java.awt.Dimension(0, 0));
         button_pow.setMinimumSize(new java.awt.Dimension(60, 30));
         button_pow.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_pow.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_powActionPerformed(evt);
+            }
+        });
 
         button_div.setText("÷");
         button_div.setAlignmentY(0.0F);
@@ -179,6 +229,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_div.setMaximumSize(new java.awt.Dimension(0, 0));
         button_div.setMinimumSize(new java.awt.Dimension(60, 30));
         button_div.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_div.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_divActionPerformed(evt);
+            }
+        });
 
         button_sin.setText("sin");
         button_sin.setAlignmentY(0.0F);
@@ -186,6 +241,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_sin.setMaximumSize(new java.awt.Dimension(0, 0));
         button_sin.setMinimumSize(new java.awt.Dimension(60, 30));
         button_sin.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_sin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_sinActionPerformed(evt);
+            }
+        });
 
         button_asin.setText("asin");
         button_asin.setAlignmentY(0.0F);
@@ -193,6 +253,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_asin.setMaximumSize(new java.awt.Dimension(0, 0));
         button_asin.setMinimumSize(new java.awt.Dimension(60, 30));
         button_asin.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_asin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_asinActionPerformed(evt);
+            }
+        });
 
         button_7.setText("7");
         button_7.setAlignmentY(0.0F);
@@ -205,11 +270,6 @@ public class MainWindow extends javax.swing.JFrame {
                 button_7ActionPerformed(evt);
             }
         });
-        button_7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                button_7KeyTyped(evt);
-            }
-        });
 
         button_8.setText("8");
         button_8.setAlignmentY(0.0F);
@@ -217,6 +277,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_8.setMaximumSize(new java.awt.Dimension(0, 0));
         button_8.setMinimumSize(new java.awt.Dimension(60, 30));
         button_8.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_8ActionPerformed(evt);
+            }
+        });
 
         button_9.setText("9");
         button_9.setAlignmentY(0.0F);
@@ -224,6 +289,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_9.setMaximumSize(new java.awt.Dimension(0, 0));
         button_9.setMinimumSize(new java.awt.Dimension(60, 30));
         button_9.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_9ActionPerformed(evt);
+            }
+        });
 
         button_mul.setText("×");
         button_mul.setAlignmentY(0.0F);
@@ -231,6 +301,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_mul.setMaximumSize(new java.awt.Dimension(0, 0));
         button_mul.setMinimumSize(new java.awt.Dimension(60, 30));
         button_mul.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_mul.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_mulActionPerformed(evt);
+            }
+        });
 
         button_cos.setText("cos");
         button_cos.setAlignmentY(0.0F);
@@ -238,6 +313,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_cos.setMaximumSize(new java.awt.Dimension(0, 0));
         button_cos.setMinimumSize(new java.awt.Dimension(60, 30));
         button_cos.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_cos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_cosActionPerformed(evt);
+            }
+        });
 
         button_acos.setText("acos");
         button_acos.setAlignmentY(0.0F);
@@ -245,6 +325,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_acos.setMaximumSize(new java.awt.Dimension(0, 0));
         button_acos.setMinimumSize(new java.awt.Dimension(60, 30));
         button_acos.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_acos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_acosActionPerformed(evt);
+            }
+        });
 
         button_4.setText("4");
         button_4.setAlignmentY(0.0F);
@@ -252,6 +337,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_4.setMaximumSize(new java.awt.Dimension(0, 0));
         button_4.setMinimumSize(new java.awt.Dimension(60, 30));
         button_4.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_4ActionPerformed(evt);
+            }
+        });
 
         button_5.setText("5");
         button_5.setAlignmentY(0.0F);
@@ -259,6 +349,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_5.setMaximumSize(new java.awt.Dimension(0, 0));
         button_5.setMinimumSize(new java.awt.Dimension(60, 30));
         button_5.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_5ActionPerformed(evt);
+            }
+        });
 
         button_6.setText("6");
         button_6.setAlignmentY(0.0F);
@@ -266,6 +361,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_6.setMaximumSize(new java.awt.Dimension(0, 0));
         button_6.setMinimumSize(new java.awt.Dimension(60, 30));
         button_6.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_6ActionPerformed(evt);
+            }
+        });
 
         button_sub.setText("-");
         button_sub.setAlignmentY(0.0F);
@@ -273,6 +373,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_sub.setMaximumSize(new java.awt.Dimension(0, 0));
         button_sub.setMinimumSize(new java.awt.Dimension(60, 30));
         button_sub.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_sub.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_subActionPerformed(evt);
+            }
+        });
 
         button_tan.setText("tan");
         button_tan.setAlignmentY(0.0F);
@@ -280,6 +385,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_tan.setMaximumSize(new java.awt.Dimension(0, 0));
         button_tan.setMinimumSize(new java.awt.Dimension(60, 30));
         button_tan.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_tan.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_tanActionPerformed(evt);
+            }
+        });
 
         button_atan.setText("atan");
         button_atan.setAlignmentY(0.0F);
@@ -287,6 +397,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_atan.setMaximumSize(new java.awt.Dimension(0, 0));
         button_atan.setMinimumSize(new java.awt.Dimension(60, 30));
         button_atan.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_atan.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_atanActionPerformed(evt);
+            }
+        });
 
         button_1.setText("1");
         button_1.setAlignmentY(0.0F);
@@ -294,6 +409,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_1.setMaximumSize(new java.awt.Dimension(0, 0));
         button_1.setMinimumSize(new java.awt.Dimension(60, 30));
         button_1.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_1ActionPerformed(evt);
+            }
+        });
 
         button_2.setText("2");
         button_2.setAlignmentY(0.0F);
@@ -301,6 +421,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_2.setMaximumSize(new java.awt.Dimension(0, 0));
         button_2.setMinimumSize(new java.awt.Dimension(60, 30));
         button_2.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_2ActionPerformed(evt);
+            }
+        });
 
         button_3.setText("3");
         button_3.setAlignmentY(0.0F);
@@ -308,6 +433,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_3.setMaximumSize(new java.awt.Dimension(0, 0));
         button_3.setMinimumSize(new java.awt.Dimension(60, 30));
         button_3.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_3ActionPerformed(evt);
+            }
+        });
 
         button_sum.setText("+");
         button_sum.setAlignmentY(0.0F);
@@ -315,6 +445,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_sum.setMaximumSize(new java.awt.Dimension(0, 0));
         button_sum.setMinimumSize(new java.awt.Dimension(60, 30));
         button_sum.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_sum.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_sumActionPerformed(evt);
+            }
+        });
 
         button_ln.setText("ln");
         button_ln.setAlignmentY(0.0F);
@@ -322,6 +457,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_ln.setMaximumSize(new java.awt.Dimension(0, 0));
         button_ln.setMinimumSize(new java.awt.Dimension(60, 30));
         button_ln.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_ln.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_lnActionPerformed(evt);
+            }
+        });
 
         button_log.setText("log");
         button_log.setAlignmentY(0.0F);
@@ -329,6 +469,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_log.setMaximumSize(new java.awt.Dimension(0, 0));
         button_log.setMinimumSize(new java.awt.Dimension(60, 30));
         button_log.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_log.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_logActionPerformed(evt);
+            }
+        });
 
         button_E.setText("E");
         button_E.setAlignmentY(0.0F);
@@ -336,6 +481,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_E.setMaximumSize(new java.awt.Dimension(0, 0));
         button_E.setMinimumSize(new java.awt.Dimension(60, 30));
         button_E.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_E.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_EActionPerformed(evt);
+            }
+        });
 
         button_0.setText("0");
         button_0.setAlignmentY(0.0F);
@@ -343,6 +493,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_0.setMaximumSize(new java.awt.Dimension(0, 0));
         button_0.setMinimumSize(new java.awt.Dimension(60, 30));
         button_0.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_0.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_0ActionPerformed(evt);
+            }
+        });
 
         button_dot.setText(".");
         button_dot.setAlignmentY(0.0F);
@@ -350,6 +505,11 @@ public class MainWindow extends javax.swing.JFrame {
         button_dot.setMaximumSize(new java.awt.Dimension(0, 0));
         button_dot.setMinimumSize(new java.awt.Dimension(60, 30));
         button_dot.setPreferredSize(new java.awt.Dimension(60, 30));
+        button_dot.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                button_dotActionPerformed(evt);
+            }
+        });
 
         button_equals.setText("=");
         button_equals.setAlignmentY(0.0F);
@@ -694,48 +854,187 @@ public class MainWindow extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBox1ActionPerformed
     
-    private void button_7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_button_7KeyTyped
-        display_main.setText(display_main.getText() + "7");        // TODO add your handling code here:
-    }//GEN-LAST:event_button_7KeyTyped
-
     private void button_7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_7ActionPerformed
-        display_main.setText(display_main.getText() + "7");// TODO add your handling code here:
+        display_main.setText(display_main.getText() + "7"); // TODO add your handling code here:
     }//GEN-LAST:event_button_7ActionPerformed
+
+    private void button_8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_8ActionPerformed
+        display_main.setText(display_main.getText() + "8"); // TODO add your handling code here:
+    }//GEN-LAST:event_button_8ActionPerformed
+
+    private void button_9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_9ActionPerformed
+        display_main.setText(display_main.getText() + "9"); // TODO add your handling code here:
+    }//GEN-LAST:event_button_9ActionPerformed
+
+    private void button_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_4ActionPerformed
+        display_main.setText(display_main.getText() + "4"); // TODO add your handling code here:
+    }//GEN-LAST:event_button_4ActionPerformed
+
+    private void button_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_5ActionPerformed
+        display_main.setText(display_main.getText() + "5");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_5ActionPerformed
+
+    private void button_6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_6ActionPerformed
+        display_main.setText(display_main.getText() + "6");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_6ActionPerformed
+
+    private void button_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_1ActionPerformed
+        display_main.setText(display_main.getText() + "1");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_1ActionPerformed
+
+    private void button_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_2ActionPerformed
+        display_main.setText(display_main.getText() + "2");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_2ActionPerformed
+
+    private void button_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_3ActionPerformed
+        display_main.setText(display_main.getText() + "3");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_3ActionPerformed
+
+    private void button_EActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_EActionPerformed
+        display_main.setText(display_main.getText() + "E");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_EActionPerformed
+
+    private void button_0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_0ActionPerformed
+        display_main.setText(display_main.getText() + "0");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_0ActionPerformed
+
+    private void button_dotActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_dotActionPerformed
+        display_main.setText(display_main.getText() + ".");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_dotActionPerformed
+
+    private void button_sumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_sumActionPerformed
+        display_main.setText(display_main.getText() + "+");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_sumActionPerformed
+
+    private void button_subActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_subActionPerformed
+        display_main.setText(display_main.getText() + "-");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_subActionPerformed
+
+    private void button_mulActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_mulActionPerformed
+        display_main.setText(display_main.getText() + "×");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_mulActionPerformed
+
+    private void button_divActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_divActionPerformed
+        display_main.setText(display_main.getText() + "÷");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_divActionPerformed
+
+    private void button_powActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_powActionPerformed
+        display_main.setText(display_main.getText() + "^");        // TODO add your handling code here:
+    }//GEN-LAST:event_button_powActionPerformed
+
+    private void button_sqrtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_sqrtActionPerformed
+       display_main.setText(display_main.getText() + "√(");       // TODO add your handling code here:
+    }//GEN-LAST:event_button_sqrtActionPerformed
+
+    private void button_modActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_modActionPerformed
+       display_main.setText(display_main.getText() + "Mod"); // TODO add your handling code here:
+    }//GEN-LAST:event_button_modActionPerformed
+
+    private void button_piActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_piActionPerformed
+      display_main.setText(display_main.getText() + "π");  // TODO add your handling code here:
+    }//GEN-LAST:event_button_piActionPerformed
+
+    private void button_eActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_eActionPerformed
+       display_main.setText(display_main.getText() + "e");  // TODO add your handling code here:
+    }//GEN-LAST:event_button_eActionPerformed
+
+    private void button_sinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_sinActionPerformed
+        display_main.setText(display_main.getText() + "sin(");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_sinActionPerformed
+
+    private void button_asinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_asinActionPerformed
+        display_main.setText(display_main.getText() + "asin(");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_asinActionPerformed
+
+    private void button_acosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_acosActionPerformed
+        display_main.setText(display_main.getText() + "acos(");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_acosActionPerformed
+
+    private void button_cosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_cosActionPerformed
+        display_main.setText(display_main.getText() + "cos(");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_cosActionPerformed
+
+    private void button_tanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_tanActionPerformed
+        display_main.setText(display_main.getText() + "tan(");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_tanActionPerformed
+
+    private void button_atanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_atanActionPerformed
+        display_main.setText(display_main.getText() + "atan(");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_atanActionPerformed
+
+    private void button_lnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_lnActionPerformed
+        display_main.setText(display_main.getText() + "ln(");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_lnActionPerformed
+
+    private void button_logActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_logActionPerformed
+        display_main.setText(display_main.getText() + "log(");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_logActionPerformed
+
+    private void button_xActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_xActionPerformed
+        display_main.setText(display_main.getText() + "x");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_xActionPerformed
+
+    private void button_bracket_leftActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_bracket_leftActionPerformed
+        display_main.setText(display_main.getText() + "(");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_bracket_leftActionPerformed
+
+    private void button_bracket_rightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_bracket_rightActionPerformed
+        display_main.setText(display_main.getText() + ")");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_bracket_rightActionPerformed
+
+    private void button_eraseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_eraseActionPerformed
+        display_main.setText("");         // TODO add your handling code here:
+    }//GEN-LAST:event_button_eraseActionPerformed
+
+    private void button_backspaceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_button_backspaceActionPerformed
+        String text = display_main.getText();
+        if (text.endsWith("asin(") || text.endsWith("acos(") || text.endsWith("atan(")) {
+            display_main.setText(display_main.getText().substring(0, display_main.getText().length() - 5));
+        } else if (text.endsWith("sin(") || text.endsWith("cos(") || text.endsWith("tan(") || text.endsWith("log(")){
+            display_main.setText(display_main.getText().substring(0, display_main.getText().length() - 4)); 
+        } else if (text.endsWith("ln(") || text.endsWith("Mod")) {
+            display_main.setText(display_main.getText().substring(0, display_main.getText().length() - 3));
+        } else if (text.endsWith("√(")) {
+            display_main.setText(display_main.getText().substring(0, display_main.getText().length() - 2));
+        } else {
+            display_main.setText(display_main.getText().substring(0, display_main.getText().length() - 1));         // TODO add your handling code here:
+        }
+    }//GEN-LAST:event_button_backspaceActionPerformed
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new MainWindow().setVisible(true);
-            }
-        });
-    }
+//    public static void main(String args[]) {
+//        /* Set the Nimbus look and feel */
+//        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+//        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+//         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+//         */
+//        try {
+//            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+//                if ("Nimbus".equals(info.getName())) {
+//                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+//                    break;
+//                }
+//            }
+//        } catch (ClassNotFoundException ex) {
+//            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (InstantiationException ex) {
+//            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (IllegalAccessException ex) {
+//            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+//            java.util.logging.Logger.getLogger(MainWindow.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        }
+//        //</editor-fold>
+//
+//        /* Create and display the form */
+//        java.awt.EventQueue.invokeLater(new Runnable() {
+//            public void run() {
+//                new MainWindow().setVisible(true);
+//            }
+//        });
+//    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton button_0;

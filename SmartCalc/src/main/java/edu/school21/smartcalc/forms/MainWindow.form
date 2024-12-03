@@ -319,6 +319,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_xActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_bracket_left">
                       <Properties>
@@ -337,6 +340,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_bracket_leftActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_bracket_right">
                       <Properties>
@@ -355,6 +361,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_bracket_rightActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_erase">
                       <Properties>
@@ -373,6 +382,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_eraseActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_backspace">
                       <Properties>
@@ -391,6 +403,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_backspaceActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_e">
                       <Properties>
@@ -409,6 +424,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_eActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_pi">
                       <Properties>
@@ -428,6 +446,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_piActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_mod">
                       <Properties>
@@ -446,6 +467,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_modActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_sqrt">
                       <Properties>
@@ -464,6 +488,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_sqrtActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_pow">
                       <Properties>
@@ -482,6 +509,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_powActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_div">
                       <Properties>
@@ -500,6 +530,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_divActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_sin">
                       <Properties>
@@ -518,6 +551,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_sinActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_asin">
                       <Properties>
@@ -536,6 +572,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_asinActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_7">
                       <Properties>
@@ -556,7 +595,6 @@
                       </Properties>
                       <Events>
                         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_7ActionPerformed"/>
-                        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="button_7KeyTyped"/>
                       </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_8">
@@ -576,6 +614,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_8ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_9">
                       <Properties>
@@ -594,6 +635,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_9ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_mul">
                       <Properties>
@@ -612,6 +656,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_mulActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_cos">
                       <Properties>
@@ -630,6 +677,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_cosActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_acos">
                       <Properties>
@@ -648,6 +698,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_acosActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_4">
                       <Properties>
@@ -666,6 +719,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_4ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_5">
                       <Properties>
@@ -684,6 +740,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_5ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_6">
                       <Properties>
@@ -702,6 +761,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_6ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_sub">
                       <Properties>
@@ -720,6 +782,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_subActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_tan">
                       <Properties>
@@ -738,6 +803,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_tanActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_atan">
                       <Properties>
@@ -756,6 +824,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_atanActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_1">
                       <Properties>
@@ -774,6 +845,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_1ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_2">
                       <Properties>
@@ -792,6 +866,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_2ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_3">
                       <Properties>
@@ -810,6 +887,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_3ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_sum">
                       <Properties>
@@ -828,6 +908,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_sumActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_ln">
                       <Properties>
@@ -846,6 +929,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_lnActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_log">
                       <Properties>
@@ -864,6 +950,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_logActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_E">
                       <Properties>
@@ -882,6 +971,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_EActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_0">
                       <Properties>
@@ -900,6 +992,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_0ActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_dot">
                       <Properties>
@@ -918,6 +1013,9 @@
                           <Dimension value="[60, 30]"/>
                         </Property>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="button_dotActionPerformed"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JButton" name="button_equals">
                       <Properties>
@@ -1040,9 +1138,6 @@
                         </Property>
                         <Property name="rowHeaderView" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
                           <ComponentRef name="null"/>
-                        </Property>
-                        <Property name="viewportView" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
-                          <ComponentRef name="default"/>
                         </Property>
                       </Properties>
 
