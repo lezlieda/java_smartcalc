@@ -1,6 +1,9 @@
 package edu.school21.forms;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 public class MainWindow extends JFrame {
     private JPanel panel1;
     private JTabbedPane tabbedPane1;
@@ -61,5 +64,97 @@ public class MainWindow extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setContentPane(panel1);
         pack();
+
+        ActionListener typeSymbol = new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String input = ((JButton) e.getSource()).getText();
+                display_main.setText(display_main.getText() + input);
+                String[] br = {"sin", "cos", "tan", "asin", "acos", "atan", "ln", "log", "√"};
+                for (String b : br) {
+                    if (input.equals(b)) {
+                        display_main.setText(display_main.getText() + "(");
+                    }
+                }
+
+            }
+        };
+        button_x.addActionListener(typeSymbol);
+        button_E.addActionListener(typeSymbol);
+        button_bracket_right.addActionListener(typeSymbol);
+        button_bracket_left.addActionListener(typeSymbol);
+        button_e.addActionListener(typeSymbol);
+        button_pi.addActionListener(typeSymbol);
+        button_div.addActionListener(typeSymbol);
+        button_pow.addActionListener(typeSymbol);
+        button_sqrt.addActionListener(typeSymbol);
+        button_mod.addActionListener(typeSymbol);
+        button_ln.addActionListener(typeSymbol);
+        button_log.addActionListener(typeSymbol);
+        button_dot.addActionListener(typeSymbol);
+        button_0.addActionListener(typeSymbol);
+        button_tan.addActionListener(typeSymbol);
+        button_atan.addActionListener(typeSymbol);
+        button_sum.addActionListener(typeSymbol);
+        button_3.addActionListener(typeSymbol);
+        button_2.addActionListener(typeSymbol);
+        button_1.addActionListener(typeSymbol);
+        button_cos.addActionListener(typeSymbol);
+        button_acos.addActionListener(typeSymbol);
+        button_sub.addActionListener(typeSymbol);
+        button_6.addActionListener(typeSymbol);
+        button_5.addActionListener(typeSymbol);
+        button_4.addActionListener(typeSymbol);
+        button_sin.addActionListener(typeSymbol);
+        button_asin.addActionListener(typeSymbol);
+        button_mul.addActionListener(typeSymbol);
+        button_9.addActionListener(typeSymbol);
+        button_8.addActionListener(typeSymbol);
+        button_7.addActionListener(typeSymbol);
+        button_backspace.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String str = display_main.getText();
+                if (str.length() > 0) {
+                    if (str.endsWith("asin(") || str.endsWith("acos(") || str.endsWith("atan(")) {
+                        display_main.setText(str.substring(0, str.length() - 5));
+                    } else if (str.endsWith("sin(") || str.endsWith("cos(") || str.endsWith("tan(") || str.endsWith("log(")) {
+                        display_main.setText(str.substring(0, str.length() - 4));
+                    } else if (str.endsWith("ln(") || str.endsWith("Mod")) {
+                        display_main.setText(str.substring(0, str.length() - 3));
+                    } else if (str.endsWith("√(")) {
+                        display_main.setText(str.substring(0, str.length() - 2));
+                    } else {
+                        display_main.setText(str.substring(0, str.length() - 1));
+                    }
+                }
+            }
+        });
+        button_erase.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                display_main.setText("");
+            }
+        });
+        button_equals.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                closeBrackets();
+            }
+        });
+
+
+    }
+
+    private void closeBrackets() {
+        String str = display_main.getText();
+        int l = 0, r = 0;
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == '(') l++;
+            if (str.charAt(i) == ')') r++;
+        }
+        for (int i = 0; i < l - r; i++) {
+            display_main.setText(display_main.getText() + ")");
+        }
     }
 }
